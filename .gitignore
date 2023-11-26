@@ -1,5 +1,6 @@
 .DS_Store
 .python-version
+output.json
 output-*
 output-*/*
 sharing_is_caring
