@@ -1,0 +1,21 @@
+{
+  "Domain": "acme.local",
+  "DCIP": "192.168.0.5",
+  "Users": [
+    {
+      "Username": "user1",
+      "Password": "password_here",
+      "NTLM_Hash": "none"
+    },
+    {
+      "Username": "user2",
+      "Password": "password_here",
+      "NTLM_Hash": "none"
+    },
+    {
+      "Username": "user3",
+      "Password": "none",
+      "NTLM_Hash": "ntlm_here"
+    }
+  ]
+}
