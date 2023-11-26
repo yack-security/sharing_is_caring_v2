@@ -85,7 +85,6 @@ parser.add_argument('--no-ipc', action='store_true', help='Exclude "IPC$" shares
 args = parser.parse_args()
 
 # Running the script
-generate_banner()
 compare_json_files_in_directory(args.directory, args.output_file, args.no_print, args.no_ipc)
 input_json_file = args.output_file
 output_csv_file = 'output.csv'

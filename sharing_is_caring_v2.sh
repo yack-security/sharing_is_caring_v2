@@ -27,12 +27,12 @@ function loopUsers() {
                 # skip user
                 echo "Password and No hash found. Skipping [$user]"
             else
-                echo "NTLM_Hash: $hash"
-                # runFindUncommonSharesHash
+                # echo "NTLM_Hash: $hash"
+                runFindUncommonSharesHash
             fi
         else
-            echo "$password"
-            # runFindUncommonSharesPassword
+            # echo "$password"
+            runFindUncommonSharesPassword
         fi
     done
 }
@@ -58,7 +58,6 @@ function theEnd() {
 }
 
 function doActions() {
-  # show banner
   python3 utils/banner.py
   loopUsers
   theEnd
