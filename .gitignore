@@ -6,3 +6,4 @@ output-*
 output-*/*
 sharing_is_caring
 data/*.json
+__pycache__/
